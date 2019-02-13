@@ -2,8 +2,8 @@ var v = require('voca');
 
 function isPermitted(query) {
   var words = v.words(v.lowerCase(query));
-//  if (words.indexOf("brexit") != -1) return false;
-  //if (words.indexOf("shit") != -1) return false;
+  if (words.indexOf("brexit") != -1) return false;
+  if (words.indexOf("shit") != -1) return false;
   return true;
 }
 
