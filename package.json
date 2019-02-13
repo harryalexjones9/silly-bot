@@ -1,0 +1,21 @@
+{
+  "name": "silly-bot",
+  "version": "1.0.0",
+  "description": "Silly chat bot that does no AI at all",
+  "main": "bot.js",
+  "repository": "https://github.com/tpetricek/silly-bot",
+  "author": "Tomas Petricek",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack -p",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
