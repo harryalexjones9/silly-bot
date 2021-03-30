@@ -19,6 +19,5 @@
     "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
-    "voca": "^1.4.0"
   }
 }
