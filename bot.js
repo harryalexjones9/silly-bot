@@ -17,6 +17,9 @@ function answerQuery(query) {
 function isPermitted(query) {
   // You will need to implement this function in the last part of the exercise 
   // (after you add 'filtering.js' tests); you can ignore it until then!
+  var words = v.words(v.lowerCase(query));
+  if (words.indexOf("shitake") != -1) return true;
+  if (words.indexOf("shit") != -1 || words.indexOf("Brexit" != -1)) return false;
   return true;
 }
 
